@@ -2,18 +2,6 @@ library(rtweet)
 library(data.table)
 
 
-consumer.key <- "Usjfxj6UWae5IC9ii2w4pil8D"
-
-consumer.secret <- "IDo8NalQ0Yw0vAqQ1OeWCxjWrCeoXZidaq3Pf5xeBV5PfTMPoB"
-
-access.token <- "1553654855717339137-lYjZaUYmz9h5E2CtXEOMnYHYFzVtnv"
-
-access.token.secret <- "VycsOZPjipkgB8j1JLsTNAEa9lRr3XXZi7qXPg7h0fh9z"
-
-appname <- "TestingMirandaBurnham"
-
-bear <- "AAAAAAAAAAAAAAAAAAAAAOLPfgEAAAAAGMg3OZYgTjOmxuJCgy6kmFL56sA%3DSHUnsrxkzTPK7ZETLP0unKOrowFceSRBAYYe5nK46N58mOAsUg"
-
 auth <- rtweet_bot(api_key = consumer.key, api_secret = consumer.secret, access_token = access.token, access_secret = access.token.secret)
 #auth_setup_default()
 #auth <- rtweet_app()
