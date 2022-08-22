@@ -1,6 +1,7 @@
 library(rtweet)
 library(data.table)
 
+
 consumer.key <- "Usjfxj6UWae5IC9ii2w4pil8D"
 
 consumer.secret <- "IDo8NalQ0Yw0vAqQ1OeWCxjWrCeoXZidaq3Pf5xeBV5PfTMPoB"
